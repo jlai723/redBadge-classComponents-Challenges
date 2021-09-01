@@ -1,6 +1,8 @@
 import React from 'react';
 import {Container} from 'reactstrap';
- 
+
+import DogIndex from './DogIndex';
+
 const Dogs = () => {
 
   return (
@@ -11,16 +13,17 @@ const Dogs = () => {
       </h1>
       <hr/>
       <ul>
-        <li>Fetch a random image from this api: <a href="https://dog.ceo/dog-api/">here</a></li>
+        <li>Fetch a random image from this api: <a href="https://dog.ceo/dog-api/" rel="noopener noreferrer" target="_blank">here</a></li>
         <li>Save this image URL to the state of the DogIndex component</li>
         <li>Render the image to the screen</li>
         <li>Have a button that fetches a new image</li>
         <li>Make sure to include some good practice error handling</li>
       </ul>
       <hr />
+      <DogIndex />
     </Container>
   );
 
 }
- 
+
 export default Dogs;

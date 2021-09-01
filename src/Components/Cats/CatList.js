@@ -5,7 +5,6 @@ class CatList extends Component {
     return (
       <div>
         <li>{ this.props.breed }</li>
-        {/* {this.props.breeds.map(cat => <li>{cat}</li>)} */}
       </div>
     )
   }

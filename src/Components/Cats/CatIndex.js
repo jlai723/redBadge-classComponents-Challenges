@@ -13,7 +13,6 @@ class CatIndex extends Component {
   return (
     <div>
       {this.state.breeds.map((breed) => <CatList breed={breed} />)}
-      {/* <CatList cats={this.state.breeds} /> */}
     </div >
   );
 }
